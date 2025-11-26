@@ -9,7 +9,7 @@ body {
   gap: 10px;
   margin-bottom: 20px;
 }
-.cartitem {
+.cart-item {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -17,4 +17,14 @@ body {
   padding: 8px;
   border: 1px solid #ddd;
   border-radius: 4px;
+}
+.cart-item span {
+  flex: 1;
+}
+.cart-item input {
+  width: 60px;
+  margin-left: 10px;
+}
+.cart-item button {
+  margin-left: 10px;
 }
