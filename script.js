@@ -9,3 +9,7 @@ let totalPrice = 0;
 function updateTotalPriceDisplay() {
   totalPriceSpan.textContent = totalPrice.toFixed(2);
 }
+
+addBtn.addEventListener("click", function() {
+  let name = productNameInput.value;
+  let price = parseFloat(productPriceInput.value);
