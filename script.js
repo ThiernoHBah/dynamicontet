@@ -13,3 +13,13 @@ function updateTotalPriceDisplay() {
 addBtn.addEventListener("click", function() {
   let name = productNameInput.value;
   let price = parseFloat(productPriceInput.value);
+
+  if (name === "") {
+    alert("Please enter a product name");
+    return;
+  }
+
+  if (isNaN(price) || price <= 0) {
+    alert("Please enter a valid price");
+    return;
+  }
