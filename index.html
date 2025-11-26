@@ -3,9 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="./styles.css">
+    <script src="./script.js" defer></script>
+    
+    <title>Dynamic Shopping Cart</title>
 </head>
 <body>
+    <h1><em>Dynamic Shopping Cart</em></h1>
+
+  <div id="product-container">
+    <input type="text" id="product-name" placeholder="Product Name">
+    <input type="number" id="product-price" placeholder="Product Price">
+    <button id="add-product">Add Product</button>
+  </div>
+
+  <ul 
+    id="cart"></ul>
+  </ul>
+
+  <h3>Total: $<span id="total-price">0</span></h3>
     
 </body>
 </html>
